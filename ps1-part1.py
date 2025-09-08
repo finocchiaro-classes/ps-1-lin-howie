@@ -5,7 +5,7 @@ firstnum = int(input("Enter an integer between 10 and 100: "))
 secondnum = int(input("Enter an integer less than 4: "))
 
 # Repeat back the numbers
-print("You entered " + str(firstnum) + "and " + str(secondnum))
+print("You entered " + str(firstnum) + " and " + str(secondnum))
 
 # Perform calculations. Be careful about string formatting for autograders.
 # Sum
