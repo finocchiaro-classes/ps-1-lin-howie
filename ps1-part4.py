@@ -19,6 +19,7 @@ def calculate_recidivism(prior_arrest, local_ordinance, release_age):
     if(local_ordinance):
         point_count += 1
     if(18 <= release_age <= 24):
+        point_count += 1
     if(release_age >= 40):
         point_count -= 1
 
